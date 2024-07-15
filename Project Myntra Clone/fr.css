@@ -1,0 +1,29 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+#products, #bag {
+    margin-bottom: 20px;
+}
+
+.product, #bag-items li {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.add-to-bag-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.add-to-bag-btn:hover {
+    background-color: #0056b3;
+}

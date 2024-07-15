@@ -1,0 +1,115 @@
+<main>
+      <div class="items-container">
+    <div class="item-container">
+      <img class="item-image" src="images/1.jpg" alt="item image">
+      <div class="rating">
+          4.5 ⭐ | 1400
+      </div>
+      <div class="company-name">Nikon</div>
+      <div class="item-name">Nikon COOLPIX A300 Point &amp; Shoot Camera 20.1 MP</div>
+      <div class="price">
+          <span class="current-price">Rs 606</span>
+          <span class="original-price">Rs 1045</span>
+          <span class="discount">(42% OFF)</span>
+      </div>
+      <button class="btn-add-bag" onclick="addToBag(001)">Add to Bag</button>
+    </div>
+    <div class="item-container">
+      <img class="item-image" src="images/2.jpg" alt="item image">
+      <div class="rating">
+          4.3 ⭐ | 24
+      </div>
+      <div class="company-name">Blue Heaven </div>
+      <div class="item-name">Blue Heaven Festive Fair Tone Make Up Kit - Vanilla (10Pcs)</div>
+      <div class="price">
+          <span class="current-price">Rs 1507</span>
+          <span class="original-price">Rs 2599</span>
+          <span class="discount">(42% OFF)</span>
+      </div>
+      <button class="btn-add-bag" onclick="addToBag(002)">Add to Bag</button>
+    </div>
+    <div class="item-container">
+      <img class="item-image" src="images/3.jpg" alt="item image">
+      <div class="rating">
+          4.1 ⭐ | 249
+      </div>
+      <div class="company-name">HERO</div>
+      <div class="item-name">Calcuttacycleco Hero Cycles For Mens And Boys 27.5 T Mountain/Hardtail Cycle</div>
+      <div class="price">
+          <span class="current-price">Rs 495</span>
+          <span class="original-price">Rs 1599</span>
+          <span class="discount">(69% OFF)</span>
+      </div>
+      <button class="btn-add-bag" onclick="addToBag(003)">Add to Bag</button>
+    </div>
+    <div class="item-container">
+      <img class="item-image" src="images/4.jpg" alt="item image">
+      <div class="rating">
+          5 ⭐ | 10
+      </div>
+      <div class="company-name">apple</div>
+      <div class="item-name">macbook m1</div>
+      <div class="price">
+          <span class="current-price">Rs 89999</span>
+          <span class="original-price">Rs 99999</span>
+          <span class="discount">(0% OFF)</span>
+      </div>
+      <button class="btn-add-bag" onclick="addToBag(004)">Add to Bag</button>
+    </div>
+    <div class="item-container">
+      <img class="item-image" src="images/5.jpg" alt="item image">
+      <div class="rating">
+          4.2 ⭐ | 3500
+      </div>
+      <div class="company-name">Roadster</div>
+      <div class="item-name">Pure Cotton T-shirt</div>
+      <div class="price">
+          <span class="current-price">Rs 489</span>
+          <span class="original-price">Rs 1399</span>
+          <span class="discount">(65% OFF)</span>
+      </div>
+      <button class="btn-add-bag" onclick="addToBag(005)">Add to Bag</button>
+    </div>
+    <div class="item-container">
+      <img class="item-image" src="images/6.jpg" alt="item image">
+      <div class="rating">
+          0 ⭐ | 0
+      </div>
+      <div class="company-name">watch</div>
+      <div class="item-name">Men ReactX watch</div>
+      <div class="price">
+          <span class="current-price">Rs 14995</span>
+          <span class="original-price">Rs 14995</span>
+          <span class="discount">(0% OFF)</span>
+      </div>
+      <button class="btn-add-bag" onclick="addToBag(006)">Add to Bag</button>
+    </div>
+    <div class="item-container">
+      <img class="item-image" src="images/7.jpg" alt="item image">
+      <div class="rating">
+          4.2 ⭐ | 388
+      </div>
+      <div class="company-name">The Indian Garage Co</div>
+      <div class="item-name">Men Slim Fit Regular Shorts</div>
+      <div class="price">
+          <span class="current-price">Rs 639</span>
+          <span class="original-price">Rs 1599</span>
+          <span class="discount">(60% OFF)</span>
+      </div>
+      <button class="btn-add-bag" onclick="addToBag(007)">Add to Bag</button>
+    </div>
+    <div class="item-container">
+      <img class="item-image" src="images/8.jpg" alt="item image">
+      <div class="rating">
+          4.2 ⭐ | 5200
+      </div>
+      <div class="company-name">Nivea</div>
+      <div class="item-name">Men Fresh Deodrant 150ml</div>
+      <div class="price">
+          <span class="current-price">Rs 142</span>
+          <span class="original-price">Rs 285</span>
+          <span class="discount">(50% OFF)</span>
+      </div>
+      <button class="btn-add-bag" onclick="addToBag(008)">Add to Bag</button>
+    </div></div>
+    </main>

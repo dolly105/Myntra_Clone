@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <title>Myntra Clone</title>
+    <link rel="stylesheet" href="C:\Users\ASUS\OneDrive\Desktop\myntra clone\css\index.css">
+    <link rel="stylesheet" href="C:\Users\ASUS\OneDrive\Desktop\myntra clone\bag.html">
+  </head>
+  <body>
+    <header>
+      <div class="logo_container">
+        <a href="#"><img class="myntra_home" src="images/myntra_logo.webp" alt="Myntra Home"></a>
+      </div>
+      <nav class="nav_bar">
+        <a href="#">Men</a>
+        <a href="#">Women</a>
+        <a href="#">Kids</a>
+        <a href="#">Home &amp; Living</a>
+        <a href="#">Beauty</a>
+        <a href="#">Studio <sup>New</sup></a>
+      </nav>
+      <div class="search_bar">
+        <span class="material-symbols-outlined search_icon">search</span>
+        <input class="search_input" placeholder="Search for products, brands and more">
+      </div>
+      <div class="action_bar">
+        <div class="action_container">
+          <span class="material-symbols-outlined action_icon">person</span>
+          <span class="action_name">Profile</span>
+        </div>
+
+        <div class="action_container">
+          <span class="material-symbols-outlined action_icon">favorite</span>
+          <span class="action_name">Wishlist</span>
+        </div>
+
+        <a class="action_container" href="pages/bag.html">
+          <span class="material-symbols-outlined action_icon">shopping_bag</span>
+          <span class="action_name">Bag</span>
+          <span class="bag-item-count" style="visibility: visible;">1</span>
+        </a>
+      </div>
+    </header>
+    <main>
+      <div class="items-container">
+    <div class="item-container">
+      <img class="item-image" src="C:\Users\ASUS\OneDrive\Desktop\myntra clone\images\1f8f63ac45cf8d1e13c9c1e3f97cb1c0.jpg"alt="item image">
+      <div class="rating">
+          4.5 ⭐ | 1400
+      </div>
+      <div class="company-name">BRIDGERTON </div>
+      <div class="item-name">DRESS &amp; </div>
+      <div class="price">
+          <span class="current-price">Rs 606</span>
+          <span class="original-price">Rs 1045</span>
+          <span class="discount">(42% OFF)</span>
+      </div>
+      <button class="btn-add-bag" onclick="addToBag(001)">Add to Bag</button>
+    </div>
+    <div class="item-container">
+      <img class="item-image" src="C:\Users\ASUS\OneDrive\Desktop\myntra clone\images\632c21fa245b8f9bc48e270e94d63a47.jpg" alt="item image">
+      <div class="rating">
+          4.3 ⭐ | 24
+      </div>
+      <div class="company-name">DAPHANE </div>
+      <div class="item-name">OUTFIT</div>
+      <div class="price">
+          <span class="current-price">Rs 1507</span>
+          <span class="original-price">Rs 2599</span>
+          <span class="discount">(42% OFF)</span>
+      </div>
+      <button class="btn-add-bag" onclick="addToBag(002)">Add to Bag</button>
+    </div>
+    <div class="item-container">
+      <img class="item-image" src="C:\Users\ASUS\OneDrive\Desktop\myntra clone\images\40d60d0e2e425380e5c1482e2828b5cb.jpg" alt="item image">
+      <div class="rating">
+          4.1 ⭐ | 249
+      </div>
+      <div class="company-name">BENEDICT</div>
+      <div class="item-name">MEN OUTFIT</div>
+      <div class="price">
+          <span class="current-price">Rs 495</span>
+          <span class="original-price">Rs 1599</span>
+          <span class="discount">(69% OFF)</span>
+      </div>
+      <button class="btn-add-bag" onclick="addToBag(003)">Add to Bag</button>
+    </div>
+    <div class="item-container">
+      <img class="item-image" src="C:\Users\ASUS\OneDrive\Desktop\myntra clone\images\16c2d736cd6b95c6f9fe08d31b4537b8.jpg" alt="item image">
+      <div class="rating">
+          5 ⭐ | 10
+      </div>
+      <div class="company-name">SIMON</div>
+      <div class="item-name">OUTFIT</div>
+      <div class="price">
+          <span class="current-price">Rs 89999</span>
+          <span class="original-price">Rs 99999</span>
+          <span class="discount">(0% OFF)</span>
+      </div>
+      <button class="btn-add-bag" onclick="addToBag(004)">Add to Bag</button>
+    </div>
+    <div class="item-container">
+      <img class="item-image" src="C:\Users\ASUS\OneDrive\Desktop\myntra clone\images\218c67c058c2c8d6ffc358040384100e.jpg"alt="item image">
+      <div class="rating">
+          4.2 ⭐ | 3500
+      </div>
+      <div class="company-name">PENOLOPE</div>
+      <div class="item-name">DRESS</div>
+      <div class="price">
+          <span class="current-price">Rs 489</span>
+          <span class="original-price">Rs 1399</span>
+          <span class="discount">(65% OFF)</span>
+      </div>
+      <button class="btn-add-bag" onclick="addToBag(005)">Add to Bag</button>
+    </div>
+    <div class="item-container">
+      <img class="item-image" src="C:\Users\ASUS\OneDrive\Desktop\myntra clone\images\04636f16e6a8412fa45de587f460efb7.jpg" alt="item image">
+      <div class="rating">
+          0 ⭐ | 0
+      </div>
+      <div class="company-name">DAPHANE</div>
+      <div class="item-name">DRESS</div>
+      <div class="price">
+          <span class="current-price">Rs 14995</span>
+          <span class="original-price">Rs 14995</span>
+          <span class="discount">(0% OFF)</span>
+      </div>
+      <button class="btn-add-bag" onclick="addToBag(006)">Add to Bag</button>
+    </div>
+    <div class="item-container">
+      <img class="item-image" src="C:\Users\ASUS\OneDrive\Desktop\myntra clone\images\4c7f40b992f6ee5c3f4efc5dedbcdc36.jpg"alt="item image">
+      <div class="rating">
+          4.2 ⭐ | 388
+      </div>
+      <div class="company-name">FRANCHESHKA</div>
+      <div class="item-name">DRESS</div>
+      <div class="price">
+          <span class="current-price">Rs 639</span>
+          <span class="original-price">Rs 1599</span>
+          <span class="discount">(60% OFF)</span>
+      </div>
+      <button class="btn-add-bag" onclick="addToBag(007)">Add to Bag</button>
+    </div>
+    <div class="item-container">
+      <img class="item-image" src="C:\Users\ASUS\OneDrive\Desktop\myntra clone\images\d9c5f7b0ac8b183575361454ebb63e4a.jpg" alt="item image">
+      <div class="rating">
+          4.2 ⭐ | 5200
+      </div>
+      <div class="ELLOISE">ELLOISE</div>
+      <div class="item-name">DRESS</div>
+      <div class="price">
+          <span class="current-price">Rs 142</span>
+          <span class="original-price">Rs 285</span>
+          <span class="discount">(50% OFF)</span>
+      </div>
+      <button class="btn-add-bag" onclick="addToBag(008)">Add to Bag</button>
+    </div></div>
+    </main>
+    <footer>
+      <div class="footer_container">
+        <div class="footer_column">
+          <h3>ONLINE SHOPPING</h3>
+
+          <a href="#">Men</a>
+          <a href="#">Women</a>
+          <a href="#">Kids</a>
+          <a href="#">Home &amp; Living</a>
+          <a href="#">Beauty</a>
+          <a href="#">Gift Card</a>
+          <a href="#">Myntra Insider</a>
+        </div>
+
+        <div class="footer_column">
+          <h3>ONLINE SHOPPING</h3>
+
+          <a href="#">Men</a>
+          <a href="#">Women</a>
+          <a href="#">Kids</a>
+          <a href="#">Home &amp; Living</a>
+          <a href="#">Beauty</a>
+          <a href="#">Gift Card</a>
+          <a href="#">Myntra Insider</a>
+        </div>
+
+        <div class="footer_column">
+          <h3>ONLINE SHOPPING</h3>
+
+          <a href="#">Men</a>
+          <a href="#">Women</a>
+          <a href="#">Kids</a>
+          <a href="#">Home &amp; Living</a>
+          <a href="#">Beauty</a>
+          <a href="#">Gift Card</a>
+          <a href="#">Myntra Insider</a>
+        </div>
+      </div>
+      <hr>
+
+      <div class="copyright">
+        © 2024 www.myntra.com. All rights reserved(sunfire sensei).
+      </div>
+    </footer>
+    <script src="data/items.js"></script>
+    <script src="scripts/index.js"></script>
+  
+
+</body></html>

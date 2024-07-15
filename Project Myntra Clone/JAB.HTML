@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <title>Myntra Clone</title>
+    <link rel="stylesheet" href="C:\Users\ASUS\OneDrive\Desktop\myntra clone\css\index.css">
+    <link rel="stylesheet" href="C:\Users\ASUS\OneDrive\Desktop\myntra clone\bag.html">
+  </head>
+  <body>
+    <header>
+      <div class="logo_container">
+        <a href="#"><img class="myntra_home" src="images/myntra_logo.webp" alt="Myntra Home"></a>
+      </div>
+      <nav class="nav_bar">
+        <a href="#">Men</a>
+        <a href="#">Women</a>
+        <a href="#">Kids</a>
+        <a href="#">Home &amp; Living</a>
+        <a href="#">Beauty</a>
+        <a href="#">Studio <sup>New</sup></a>
+      </nav>
+      <div class="search_bar">
+        <span class="material-symbols-outlined search_icon">search</span>
+        <input class="search_input" placeholder="Search for products, brands and more">
+      </div>
+      <div class="action_bar">
+        <div class="action_container">
+          <span class="material-symbols-outlined action_icon">person</span>
+          <span class="action_name">Profile</span>
+        </div>
+
+        <div class="action_container">
+          <span class="material-symbols-outlined action_icon">favorite</span>
+          <span class="action_name">Wishlist</span>
+        </div>
+
+        <a class="action_container" href="pages/bag.html">
+          <span class="material-symbols-outlined action_icon">shopping_bag</span>
+          <span class="action_name">Bag</span>
+          <span class="bag-item-count" style="visibility: visible;">1</span>
+        </a>
+      </div>
+    </header>
+    <main>
+      <div class="items-container">
+    <div class="item-container">
+      <img class="item-image" src="C:\Users\ASUS\OneDrive\Desktop\myntra clone\images\shrdha and deepika and kat\kareena-mos1_113017032027.webp"alt="item image">
+      <div class="rating">
+          4.5 ⭐ | 1400
+      </div>
+      <div class="company-name">TRAIN </div>
+      <div class="item-name">OUTFIT &amp; </div>
+      <div class="price">
+          <span class="current-price">Rs 606</span>
+          <span class="original-price">Rs 1045</span>
+          <span class="discount">(42% OFF)</span>
+      </div>
+      <button class="btn-add-bag" onclick="addToBag(001)">Add to Bag</button>
+    </div>
+    <div class="item-container">
+      <img class="item-image" src="C:\Users\ASUS\OneDrive\Desktop\myntra clone\images\shrdha and deepika and kat\23a05d1416d28fa98341f80407c93f19.jpg" alt="item image">
+      <div class="rating">
+          4.3 ⭐ | 24
+      </div>
+      <div class="company-name">WHITE </div>
+      <div class="item-name">OUTFIT</div>
+      <div class="price">
+          <span class="current-price">Rs 1507</span>
+          <span class="original-price">Rs 2599</span>
+          <span class="discount">(42% OFF)</span>
+      </div>
+      <button class="btn-add-bag" onclick="addToBag(002)">Add to Bag</button>
+    </div>
+    <div class="item-container">
+      <img class="item-image" src="C:\Users\ASUS\OneDrive\Desktop\myntra clone\images\shrdha and deepika and kat\6c8894cae24e373057e5947f32ac99cc.jpg"alt="item image">
+      <div class="rating">
+          4.1 ⭐ | 249
+      </div>
+      <div class="company-name">AADITYA</div>
+      <div class="item-name">OUTFIT</div>
+      <div class="price">
+          <span class="current-price">Rs 495</span>
+          <span class="original-price">Rs 1599</span>
+          <span class="discount">(69% OFF)</span>
+      </div>
+      <button class="btn-add-bag" onclick="addToBag(003)">Add to Bag</button>
+    </div>
+    <div class="item-container">
+      <img class="item-image" src="C:\Users\ASUS\OneDrive\Desktop\myntra clone\images\shrdha and deepika and kat\16f614b6a795bcfbb50d21bd6b78b6a8.jpg" alt="item image">
+      <div class="rating">
+          5 ⭐ | 10
+      </div>
+      <div class="company-name">GEET</div>
+      <div class="item-name">OUTFIT</div>
+      <div class="price">
+          <span class="current-price">Rs 89999</span>
+          <span class="original-price">Rs 99999</span>
+          <span class="discount">(0% OFF)</span>
+      </div>
+      <button class="btn-add-bag" onclick="addToBag(004)">Add to Bag</button>
+    </div>
+    <div class="item-container">
+      <img class="item-image" src="C:\Users\ASUS\OneDrive\Desktop\myntra clone\images\shrdha and deepika and kat\93b8a70628f639ee899b4129d174122d.jpg"alt="item image">
+      <div class="rating">
+          4.2 ⭐ | 3500
+      </div>
+      <div class="company-name">AADITYA</div>
+      <div class="item-name">OUTFIT</div>
+      <div class="price">
+          <span class="current-price">Rs2489</span>
+          <span class="original-price">Rs 4399</span>
+          <span class="discount">(65% OFF)</span>
+      </div>
+      <button class="btn-add-bag" onclick="addToBag(005)">Add to Bag</button>
+    </div>
+    <div class="item-container">
+      <img class="item-image" src="C:\Users\ASUS\OneDrive\Desktop\myntra clone\images\shrdha and deepika and kat\a41ce4c36d3be3b6945bc43e55e8b86f.jpg" alt="item image">
+      <div class="rating">
+          0 ⭐ | 0
+      </div>
+      <div class="company-name">YELLOW</div>
+      <div class="item-name">KURTI</div>
+      <div class="price">
+          <span class="current-price">Rs 14995</span>
+          <span class="original-price">Rs 14995</span>
+          <span class="discount">(0% OFF)</span>
+      </div>
+      <button class="btn-add-bag" onclick="addToBag(006)">Add to Bag</button>
+    </div>
+    <div class="item-container">
+      <img class="item-image" src="C:\Users\ASUS\OneDrive\Desktop\myntra clone\images\shrdha and deepika and kat\330c6ea25697f1a06a81ff875a38d9a9.jpg"alt="item image">
+      <div class="rating">
+          4.2 ⭐ | 388
+      </div>
+      <div class="company-name">COUPLE OUTFIT</div>
+      <div class="item-name">CASUAL</div>
+      <div class="price">
+          <span class="current-price">Rs 2639</span>
+          <span class="original-price">Rs 5599</span>
+          <span class="discount">(60% OFF)</span>
+      </div>
+      <button class="btn-add-bag" onclick="addToBag(007)">Add to Bag</button>
+    </div>
+    <div class="item-container">
+      <img class="item-image" src="C:\Users\ASUS\OneDrive\Desktop\myntra clone\images\shrdha and deepika and kat\b20597bfcb6f3e4d974dd415b5cbf33b.jpg"alt="item image">
+      <div class="rating">
+          4.2 ⭐ | 5200
+      </div>
+      <div class="ELLOISE">COUPLE</div>
+      <div class="item-name">OUTFIT</div>
+      <div class="price">
+          <span class="current-price">Rs 2142</span>
+          <span class="original-price">Rs 4285</span>
+          <span class="discount">(50% OFF)</span>
+      </div>
+      <button class="btn-add-bag" onclick="addToBag(008)">Add to Bag</button>
+    </div></div>
+    </main>
+    <footer>
+      <div class="footer_container">
+        <div class="footer_column">
+          <h3>ONLINE SHOPPING</h3>
+
+          <a href="#">Men</a>
+          <a href="#">Women</a>
+          <a href="#">Kids</a>
+          <a href="#">Home &amp; Living</a>
+          <a href="#">Beauty</a>
+          <a href="#">Gift Card</a>
+          <a href="#">Myntra Insider</a>
+        </div>
+
+        <div class="footer_column">
+          <h3>ONLINE SHOPPING</h3>
+
+          <a href="#">Men</a>
+          <a href="#">Women</a>
+          <a href="#">Kids</a>
+          <a href="#">Home &amp; Living</a>
+          <a href="#">Beauty</a>
+          <a href="#">Gift Card</a>
+          <a href="#">Myntra Insider</a>
+        </div>
+
+        <div class="footer_column">
+          <h3>ONLINE SHOPPING</h3>
+
+          <a href="#">Men</a>
+          <a href="#">Women</a>
+          <a href="#">Kids</a>
+          <a href="#">Home &amp; Living</a>
+          <a href="#">Beauty</a>
+          <a href="#">Gift Card</a>
+          <a href="#">Myntra Insider</a>
+        </div>
+      </div>
+      <hr>
+
+      <div class="copyright">
+        © 2024 www.myntra.com. All rights reserved(sunfire sensei).
+      </div>
+    </footer>
+    <script src="data/items.js"></script>
+    <script src="scripts/index.js"></script>
+  
+
+</body></html>
